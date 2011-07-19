@@ -1,7 +1,4 @@
-<script language="Javascript" type="text/javascript">
-google.load("search", "1", {"language" : "jp"});
-
-function OnLoad() {
+function search(){
 
     var searcher = new google.search.WebSearch();  //Web検索
     searcher.setSearchCompleteCallback(searcher, searchComplete, null);
@@ -22,11 +19,4 @@ function OnLoad() {
         }
     }
 }
-
-google.setOnLoadCallback(OnLoad);
-</script>
-
-<body>
-<div id="searchResults"></div>
-</body>
 
