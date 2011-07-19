@@ -3,9 +3,11 @@
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 <title>google ajax search</title>
+<script src="https://www.google.com/jsapi?key=[api_key]" type="text/javascript"></script>
+<script type="text/javascript" src="js/search.js" charset="utf-8"></script>
 <script language="Javascript" type="text/javascript">
   google.load("search", "1", {"language" : "jp"});
-  google.setOnLoadCallback(search());
+  google.setOnLoadCallback(search);
 </script>
 </head>
 <body>
